@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Game specific colors
+        "ball-glow": "hsl(var(--ball-glow))",
+        "track-primary": "hsl(var(--track-primary))",
+        "obstacle-danger": "hsl(var(--obstacle-danger))",
+        "finish-success": "hsl(var(--finish-success))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +62,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-cosmic": "var(--gradient-cosmic)",
+        "gradient-track": "var(--gradient-track)",
+        "gradient-ball": "var(--gradient-ball)",
+      },
+      boxShadow: {
+        glow: "var(--shadow-glow)",
+        ball: "var(--shadow-ball)",
+        obstacle: "var(--shadow-obstacle)",
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
+        bounce: "var(--transition-bounce)",
       },
       borderRadius: {
         lg: "var(--radius)",
